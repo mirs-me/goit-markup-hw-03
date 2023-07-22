@@ -1,0 +1,149 @@
+:root {
+    --navyblue: #2E2F42;
+    --iris: #4D5AE5;
+    --slate: #434455;
+    --ocean: #404BBF;
+    --cornflower: #E7E9FC;
+    --white: #fff;
+    --black: #000;
+    --cloud: #F4F4FD;
+}
+body {font-family: 'Roboto', sans-serif;
+        color: var(--navyblue);
+    
+}
+.navigation-bar {border-bottom: 1px solid var(--cornflower);
+                background: var(--white);}
+.logo {font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: inherit;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+    }
+
+.logo-blue-web {color:var(--iris);
+    }
+.logo:hover, .logo:focus {color: var(--ocean);}
+
+.navigation {list-style: none;          
+}
+
+.navigation-item{ text-decoration: none;
+                font-weight: 500;
+               font-size: 16px;
+               line-height: 1.5;
+                 color: inherit;
+                letter-spacing: 0.32px;}
+.navigation-item:hover, .navigation-item:focus {color: var(--iris);}
+
+.contacts {list-style: none;}
+
+.contacts-item{color: var(--slate);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    }
+
+.contacts-item:hover, .contacts-item:focus {color:var(--iris);}
+
+.hero-section {background-color: var(--navyblue);
+            
+        }
+.hero-section-title {color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;}
+
+.order-button {background-color:var(--iris);
+                font-family: 'Roboto', sans-serif;
+                color:var(--white);
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.64px;
+            cursor: pointer;}
+
+.order-button:hover, .order-button:focus { background-color: var(--ocean);}
+
+.values-list {list-style: none;}
+
+.values-title {color: var(--navyblue);
+         font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.4px;}
+
+.values-description {font-size: 16px;
+                    color:var(--slate);
+                    line-height: 1.5;
+                    letter-spacing: 0.32px;}
+
+.our-work-title {color: var(--navyblue);
+                 font-size: 36px;
+                line-height: 1.1;
+                letter-spacing: 0.72px;}
+
+.our-work-list{list-style: none; }
+
+.team{ background: var(--cloud);}
+
+.team-title {
+    color: var(--navyblue);
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+}
+
+.team-list { list-style: none;}
+
+.team-member-name{color: var(--navyblue);
+                font-size: 20px;
+                line-height: 1.2;
+                letter-spacing: 0.4px;}
+
+.team-member-position {font-size: 16px;
+                    color:var(--slate);
+                    line-height: 1.5;
+                    letter-spacing: 0.32px;
+                    }
+
+.bottom-page {color: var(--cloud);
+                background-color: var(--navyblue);}                    
+
+.footer-description {font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.32px;
+                    }
+.filter-list{list-style: none;}
+.filter-button{font-family: 'Roboto', sans-serif;
+                background-color: var(--cloud);
+                border: 1px solid var(--cornflower);
+                color:var(--iris);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                letter-spacing: 0.64px;
+                cursor: pointer;
+            }
+.filter-button:hover, 
+.filter-button:focus {  background-color:var(--ocean);
+                        color:var(--white);}
+
+ .projects-list {list-style: none;}
+
+ .project-title {font-size: 20px;
+                line-height: 1.2;
+                letter-spacing: 0.4px;
+                color: var(--navyblue);
+}
+ .project-type {
+     font-size: 16px;
+     color: var(--slate);
+     line-height: 1.5;
+     letter-spacing: 0.32px;
+ }
+ .page-title {color: var(--cloud);}
