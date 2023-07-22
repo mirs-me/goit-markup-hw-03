@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Second Homework assignment HTML Grid for Portfolio page basic CSS for both pages
+Third Homework assignment
