@@ -8,10 +8,16 @@
     --black: #000;
     --cloud: #F4F4FD;
 }
+
 body {font-family: 'Roboto', sans-serif;
         color: var(--navyblue);
     
 }
+.container{
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+} 
 .navigation-bar {border-bottom: 1px solid var(--cornflower);
                 background: var(--white);}
 .logo {font-family: 'Raleway', sans-serif;
