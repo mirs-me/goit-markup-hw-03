@@ -170,12 +170,10 @@ body {font-family: 'Roboto', sans-serif;
             flex-direction: row;
             justify-content: space-between;
             gap: 24px;}
+
 .member-card { background-color: var(--white); 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    text-align: center;
+    padding: 32px 0;
 }
 
 .member-image.no-gap{ display: block;}
@@ -183,13 +181,14 @@ body {font-family: 'Roboto', sans-serif;
                 font-size: 20px;
                 line-height: 1.2;
                 letter-spacing: 0.4px;
-                padding-top: 32px;}
+                margin-bottom: 8px;
+                }
 
 .team-member-position {font-size: 16px;
                     color:var(--slate);
                     line-height: 1.5;
                     letter-spacing: 0.32px;
-                    padding-bottom: 32px;
+                    
                     }
 
 .bottom-page {color: var(--cloud);
@@ -225,7 +224,7 @@ body {font-family: 'Roboto', sans-serif;
 .filter-button:focus {  background-color:var(--ocean);
                         color:var(--white);}
 
- .projects-list {list-style: none;
+.projects-list {list-style: none;
                     display: flex;
                     flex-wrap: wrap;
                     gap:24px;
@@ -236,6 +235,7 @@ body {font-family: 'Roboto', sans-serif;
                 line-height: 1.2;
                 letter-spacing: 0.4px;
                 color: var(--navyblue);
+                margin-bottom: 8px;
 }
 .project-type {
      font-size: 16px;
@@ -243,4 +243,11 @@ body {font-family: 'Roboto', sans-serif;
      line-height: 1.5;
      letter-spacing: 0.32px;
  }
-.page-title {color: var(--cloud);}
+.project-card {
+     padding: 32px 16px;
+     border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+    border-right: 1px solid var(--cornflower)
+ }
+.project-image.no-gap {display: block;}
+.page-title {display: none;}
