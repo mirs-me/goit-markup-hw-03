@@ -204,7 +204,6 @@ img {display: block;
                     color:var(--slate);
                     line-height: 1.5;
                     letter-spacing: 0.32px;
-                    
                     }
 
 .bottom-page {  color: var(--cloud);
@@ -264,16 +263,16 @@ img {display: block;
                 letter-spacing: 0.4px;
                 color: var(--navyblue);
                 font-weight: 500;
+                margin-bottom: 8px;
 }
 .project-type {
      font-size: 16px;
      color: var(--slate);
      line-height: 1.5;
      letter-spacing: 0.32px;
-     margin-bottom: 8px;
  }
 .project-card {
-     padding: 32px 16px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     }
