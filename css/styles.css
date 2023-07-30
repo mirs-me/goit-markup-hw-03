@@ -84,12 +84,14 @@ img {display: block;
             }
 .navigation-item:hover, .navigation-item:focus {color: var(--iris);}
 
-.contacts {list-style: none;
+.contacts {font-style: normal;
+            margin-left: auto;}
+.contacts-list { 
+            list-style: none;
             display: flex;
             flex-direction: row;
             gap: 40px;
-            margin-left:auto;
-        }
+            }
 
 .contacts-item{color: var(--slate);
     text-decoration: none;
@@ -127,6 +129,7 @@ img {display: block;
             padding: 16px 32px;
             margin: 48px auto 0 auto;
             display: block;
+            min-width: 169px;
         }
 
 .order-button:hover, .order-button:focus { background-color: var(--ocean);}
