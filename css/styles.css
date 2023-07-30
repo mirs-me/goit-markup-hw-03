@@ -55,6 +55,7 @@ img {display: block;
         color: inherit;
         line-height: 1.17;
         letter-spacing: 0.54px;
+        margin-right: 76px
     }
 
 .logo-blue-web {color:var(--iris);
@@ -70,7 +71,6 @@ img {display: block;
 
  .nav-wrapper>nav {
      display: flex;
-     gap: 76px;
      align-items: center;
  }
 .navigation-item{ text-decoration: none;
@@ -110,7 +110,7 @@ img {display: block;
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
-    width: 496px;
+    max-width: 496px;
     margin: auto;}
 
 .order-button {background-color:var(--iris);
