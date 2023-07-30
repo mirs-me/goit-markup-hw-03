@@ -177,7 +177,8 @@ img {display: block;
     text-align: center;
     margin-bottom: 72px;
 }
-.team-list-item {display:block;}
+.team-list-item {display:block;
+                border-radius: 0px 0px 4px 4px;}
 .team-list {list-style: none;
             display: flex;
             flex-direction: row;
@@ -262,7 +263,6 @@ img {display: block;
                 line-height: 1.2;
                 letter-spacing: 0.4px;
                 color: var(--navyblue);
-                margin-bottom: 8px;
                 font-weight: 500;
 }
 .project-type {
@@ -270,7 +270,7 @@ img {display: block;
      color: var(--slate);
      line-height: 1.5;
      letter-spacing: 0.32px;
-     margin-bottom: 8px;
+     margin-top: 8px;
  }
 .project-card {
      padding: 32px 16px;
